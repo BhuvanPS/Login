@@ -36,7 +36,7 @@ class _CustContState extends State<CustCont> {
                         child: Transform.rotate(
                           angle: 5.92,
                           child: Text(
-                            "Warehouse",
+                            "Warehouses",
                             style: TextStyle(
                               fontSize: 55,
                               fontWeight: FontWeight.w800,
@@ -191,7 +191,7 @@ class ContainerCustomPainter extends CustomPainter {
         0, size.height * 0.265, size.width * 0.2, size.height * 0.22);
     path.lineTo(size.width * 0.87, size.height * 0.025);
     path.quadraticBezierTo(
-        size.width, size.height * 0, size.width, size.height * 0.25);
+        size.width, size.height * 0.01, size.width, size.height * 0.25);
     // path.lineTo(size.width, size.height * 0.1);
     //
     path.close();
