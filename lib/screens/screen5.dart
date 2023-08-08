@@ -68,7 +68,7 @@ class Screen5 extends StatelessWidget {
                       Text(
                         location,
                         style: TextStyle(
-                          fontSize: 14,
+                          fontSize: 16,
                         ),
                       ),
                     ],
